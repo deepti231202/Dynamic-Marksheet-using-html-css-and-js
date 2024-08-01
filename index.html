@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="div">
+                <h2 style="font-size: 17px;">Sr.No. <span style="color: red;">720721104018</span></h2>
+                <!-- <h3 class="srspan">720721104018</h3> -->
+            </div>
+            <img class="logo" src="assets/marksheet logo.jpeg" alt="">
+            <img class="qr" src="assets/FQR.png" alt="">
+        </div>
+        <div class="collegedetail">
+            <div class="college collegename">
+                <h3 style="color:  rgb(128, 36, 3);"><b>HINDUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY</b></h3>
+            </div>
+            <div class="college collegeext">
+                <h4 style="color: rgb(87, 86, 86)"><i>(An Autonomous Institution affliated to Anna University)</i></h4>
+            </div>
+            <div class="marksheettitle">
+                <h3 class="lheading">Annual Statement of Marks</h3><br>
+            </div>
+        </div>
+      
+        <div class="studentinfo">
+            <div class="namecourse">
+                    <div class="blockdiv name">
+                        <p class="heading"><b>Name of the Candidate</b></p>
+                        <h4>DEEPTI S</h4>
+                    </div>
+                    <div class="blockdiv course">
+                            <p class="heading"><b>Course name with Code</b></p>
+                            <h4>Computer Science and Engineering <br> CS104</h4>
+                    </div>
+            </div>
+            <div class="detailreg">
+                    <div class="blockdiv reg1">
+                        <p class="heading"><b>Register No.</b></p>
+                        <h4>720721104018</h4>
+                    </div>
+                    <div class="blockdiv reg2">
+                        <p class="heading"><b>Enrollment No.</b></p>
+                        <h4>720721104018</h4>
+                    </div>
+                    <div class="blockdiv reg3">
+                        <p class="heading"><b>Authorised Training Center Name with Code</b></p>
+                        <h4>xyz 1001</h4>
+                        
+                    </div>
+            </div>
+        </div>
+    
+        <table class="table">
+
+            <tr class="last">
+                <th class="heading">Subject Code</th>
+                <th class="heading">Subject Name</th>
+                <th class="heading">Max Marks</th>
+                <th class="heading" colspan="3">Marks Obtained in Figures</th>
+                <th class="heading">Total in Words</th>
+            </tr>
+            <tr class="last">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th class="heading">Theory</th>
+                <th class="heading">Practical</th>
+                <th class="heading">Total</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>21CS101</td>
+                <td>COMPILER DESIGN</td>
+                <td>100</td>
+                <td><input type="number" class="input1" oninput="total(this)" max="80" min="0"></td>
+                <td><input type="number" class="input2" oninput="total(this)" max="20" min="0"></td>
+                <td><span class="total">0</span></td>
+                <td><span class="total-words">Zero</span></td>
+            </tr>
+            <tr>
+                <td>21CS102</td>
+                <td>MOBILE COMPUTING</td>
+                <td>100</td>
+                <td><input type="number" class="input1" oninput="total(this)" max="80" min="0"></td>
+                <td><input type="number" class="input2" oninput="total(this)" max="20" min="0"></td>
+                <td><span class="total">0</span></td>
+                <td><span class="total-words">Zero</span></td>
+            </tr>
+            <tr>
+                <td>21CS103</td>
+                <td>PREDICTIVE MODELING</td>
+                <td>100</td>
+                <td><input type="number" class="input1" oninput="total(this)" max="80" min="0"></td>
+                <td><input type="number" class="input2" oninput="total(this)" max="20" min="0"></td>
+                <td><span class="total">0</span></td>
+                <td><span class="total-words">Zero</span></td>
+            </tr>
+            <tr>
+                <td>21CS104</td>
+                <td>ARTIFICIAL INTELLIGENCE</td>
+                <td>100</td>
+                <td><input type="number" class="input1" oninput="total(this)" max="80" min="0"></td>
+                <td><input type="number" class="input2" oninput="total(this)" max="20" min="0"></td>
+                <td><span class="total">0</span></td>
+                <td><span class="total-words">Zero</span></td>
+            </tr>
+            <tr>
+                <td>21CS105</td>
+                <td>pRINCIPLES OF MANAGEMENT</td>
+                <td>100</td>
+                <td><input type="number" class="input1" oninput="total(this)" max="80" min="0"></td>
+                <td><input type="number" class="input2" oninput="total(this)" max="20" min="0"></td>
+                <td><span class="total">0</span></td>
+                <td><span class="total-words">Zero</span></td>
+            </tr>
+            <tr>
+            <tr>
+                <td colspan="7">
+                    <div class="totalinfo">Total Marks : <span class="totalmarks">0</span></div>
+                </td>
+
+            </tr>
+            <tr class="last">
+                <td colspan="2"><b>Month and Year of Examination</b></td>
+                <td colspan="2"><b>No. of Subjects</b></td>
+                <td><b>Result</b></td>
+                <td><b>Percentage</b></td>
+                <td colspan="3"><b>Grade</b></td>
+                <!-- <td colspan="5">Grand Total</td>
+                <td><span id="grand-total">0</span></td>
+                <td><span id="grand-total-words">Zero </span></td> -->
+
+            </tr>
+            <tr>
+                <td colspan="2"><b>August 2024</b></td>
+                <td colspan="2"><b>T5</b></td>
+                <td><b>PASS</td>
+                <td class="percentage"><b>00.00%</b></td>
+                <td colspan="3"><b>DISTINCTION</b></td>
+            </tr>
+
+        </table>
+       
+        <div class="footer">
+            <div class="datediv">
+             <h4><span class="date">Date: </span>01/08/24</h4>
+            </div>
+            <div class="sealdiv">
+              <p>This sample of Annual Statement Of Marks is Prepared as per
+                  Skill Development Management Initiative, Under Ministry of
+                  Skill Development and Entrepreneaurship, Government of India 
+              </p>
+            </div>
+            <div class="signaturediv">
+              <h4>(Signature of Deputy Controller Of Examination)<br>
+                 <span class="dce"> Deputy Controller Of Examination</span></h4>
+            </div>
+        </div>
+        <div class="declaration">
+            <h4><span>Subject marked with</span> &#9733; <span>indicates Exemption</span></h4>
+        </div>
+    </div>
+    <script>
+        let totalMarks = 0;
+
+function total(input) {
+    let sum = input.parentNode.parentNode;
+    let input1 = sum.querySelector('.input1').value;
+    let input2 = sum.querySelector('.input2').value;
+    let total = parseInt(input1) + parseInt(input2);
+    sum.querySelector('.total').innerText = total;
+    sum.querySelector('.total-words').innerText = Words(total);
+    
+
+    let inputsfield = true;
+    let inputs = document.querySelectorAll('.input1, .input2');
+    inputs.forEach(function(input) {
+      if (input.value === '') {
+        inputsfield = false;
+      }
+    });
+    
+    if (inputsfield) {
+      totalMarks = 0;
+      inputs.forEach(function(input) {
+        totalMarks += parseInt(input.value);
+      });
+      document.querySelector('.totalmarks').innerText = totalMarks;
+      calculatePercentage();
+    }
+  }
+    
+  function calculatePercentage() {
+    let percentage = (totalMarks / 500) * 100;
+    document.querySelector('.percentage').innerText = percentage.toFixed(2);
+  }
+  
+let input1 = sum.querySelector('.input1').value;
+let input2 = sum.querySelector('.input2').value;
+if (!isNaN(input1) && !isNaN(input2)) {
+    let total = parseInt(input1) + parseInt(input2);
+}
+
+function Words(num) {
+    let ones = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
+    let teens = ['Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen'];
+    let tens = ['', '', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety', 'Hundred'];
+    if (num < 10) {
+        return ones[num];
+    } else if (num < 20) {
+        return teens[num - 10];
+    } else {
+        return tens[Math.floor(num / 10)] + (num % 10 != 0 ? ' ' + ones[num % 10] : '');
+    }
+}
+function calculateResult() {
+const grandTotal = parseInt(document.getElementById("grand-total").textContent) || 0;
+    const subjectOffered = parseInt(document.getElementById("subject-offered").value) || 8; 
+    const percentage = (grandTotal / (subjectOffered * 100)) * 100;
+
+    document.getElementById("result").value = grandTotal >= (subjectOffered * 100 * 0.33) ? "PASS" : "FAIL"; 
+    document.getElementById("percentage").value = percentage.toFixed(2) + "%";
+    document.getElementById("grade").value = percentage >= 90 ? "A+" : percentage >= 80 ? "A" : percentage >= 70 ? "B+" : percentage >= 60 ? "B" : percentage >= 50 ? "C" : "D";
+}
+
+// Event listener for input fields to update calculations
+const inputFields = document.querySelectorAll(".theory-marks, .practical-marks");
+inputFields.forEach(input => {
+    input.addEventListener("input", calculateTotalMarks);
+});
+    </script>
+</body>
+</html>
