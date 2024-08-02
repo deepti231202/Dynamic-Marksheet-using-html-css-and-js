@@ -8,7 +8,8 @@
     height: 1100px;
     margin: 40px auto;
     padding: 25px 10px;
-    background-color: #fefbf7;
+    background-image: linear-gradient(#fefbf7, rgb(255, 217, 156));
+
     /* background-image: url('/assets/marksheet\ logo.jpeg');
    background-repeat: no-repeat;
       */
